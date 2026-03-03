@@ -1,0 +1,2 @@
+fatal: path 'src/app/register/professional/page.tsx' exists, but not 'page.tsx'
+hint: Did you mean 'HEAD:src/app/register/professional/page.tsx' aka 'HEAD:./page.tsx'?
