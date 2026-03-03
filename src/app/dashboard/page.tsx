@@ -90,6 +90,25 @@ export default function DashboardPage() {
                 </div>
               </div>
             </Link>
+
+            {/* Card Conexões */}
+            <Link href="/conexoes" className="bg-white overflow-hidden shadow rounded-lg hover:shadow-md transition">
+              <div className="p-5">
+                <div className="flex items-center">
+                  <div className="flex-shrink-0 bg-yellow-500 rounded-md p-3">
+                    <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292m0 0H8.646a4 4 0 010-5.292m3.354-6.354a4 4 0 100 5.292m0 0H15.354a4 4 0 000-5.292m-11.354 11.354L7.5 9m0 0L9 7.5m-1.5 1.5a4 4 0 110 5.292m0 0H8.646a4 4 0 010-5.292m1.5 6.792L7.5 15m1.5-1.5L9 16.5" />
+                    </svg>
+                  </div>
+                  <div className="ml-5 w-0 flex-1">
+                    <dl>
+                      <dt className="text-sm font-medium text-gray-500 truncate">Conexões</dt>
+                      <dd className="text-lg font-medium text-gray-900">Gerenciar</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
