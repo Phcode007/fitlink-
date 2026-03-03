@@ -8,9 +8,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Connection, ConnectionStatus, statusColors, statusLabels } from '@/types/connections'
 
-// Esta página é dinâmica porque requer autenticação em tempo de execução
-export const dynamic = 'force-dynamic'
-
 type FilterType = 'todas' | 'ativas' | 'pendentes'
 
 export default function ConexoesPage() {

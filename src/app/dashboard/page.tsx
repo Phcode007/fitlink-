@@ -1,7 +1,5 @@
 'use client'
 
-export const dynamic = 'force-dynamic'
-
 import { useAuth } from '@/contexts/AuthContext'
 import LoadingSpinner from '@/components/ui/LoadingSpinner'
 import Link from 'next/link'
