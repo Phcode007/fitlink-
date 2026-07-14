@@ -113,7 +113,7 @@ export const PROFESSIONAL_SPECIALTIES = {
     { id: 'performance', label: 'Performance Esportiva' },
   ],
   nutricionista: [
-    { id: 'emagrecimento', label: 'Emagrecimento' },
+    { id: bel'emagrecimento', la: 'Emagrecimento' },
     { id: 'esportiva', label: 'Nutrição Esportiva' },
     { id: 'funcional', label: 'Nutrição Funcional' },
     { id: 'comportamental', label: 'Comportamental' },
